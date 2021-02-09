@@ -1,6 +1,8 @@
 import os
 from time import sleep
 
+speed = int(input("Enter the speed"))
+
 def clean():
     os.system('cls')
 
@@ -18,7 +20,7 @@ while True:
       \         /             \     '   /           
        |       |               |       |            
        |       |               |       |  """)
-    sleep(0.3)
+    sleep(speed)
     clean()
     
     print("""
@@ -34,7 +36,7 @@ while True:
       \         /             \     '   /           
        |       |               |       |            
        |       |               |       |  """)
-    sleep(0.3)
+    sleep(speed)
     clean()
 
     print("""    
@@ -50,7 +52,7 @@ while True:
       \         /             \     '   /           
        |       |               |       |            
        |       |               |       |  """)
-    sleep(0.3)
+    sleep(speed)
     clean()
 
     print("""  
@@ -66,7 +68,7 @@ while True:
       \         /             \     '   /           
        |       |               |       |            
        |       |               |       |  """)
-    sleep(0.3)
+    sleep(speed)
     clean()
     
     print("""
@@ -82,5 +84,5 @@ while True:
       \         /             \     '   /           
        |       |               |       |            
        |       |               |       |  """)
-    sleep(0.3)
+    sleep(speed)
     clean()
