@@ -1,7 +1,7 @@
 import os
 from time import sleep
 
-speed = int(input("Enter the speed"))
+speed = float(input("Enter the speed"))
 
 def clean():
     os.system('cls')
