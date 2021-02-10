@@ -2,6 +2,7 @@ import os
 from time import sleep
 
 speed = float(input("Enter the speed"))
+clean()
 
 def clean():
     os.system('cls')
