@@ -1,11 +1,11 @@
 import os
 from time import sleep
 
-speed = float(input("Enter the speed"))
-clean()
-
 def clean():
     os.system('cls')
+
+speed = float(input("Enter the speed"))
+clean()
 
 while True:
     print("""
