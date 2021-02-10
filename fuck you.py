@@ -1,8 +1,20 @@
 import os
 from time import sleep
 
+os = input("Your operating system")
+
 def clean():
-    os.system('cls')
+    if os == "Windows" or "windows":
+        os.system('cls')
+        
+    if os == "MacOs" or "macos" or "mac":
+        os.system('clean')
+    
+    if os == "Linux" or "linux":
+        os.system('clean')
+    
+    else:
+        print(os + "is not recognized")
 
 speed = float(input("Enter the speed"))
 clean()
