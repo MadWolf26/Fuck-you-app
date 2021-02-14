@@ -1,7 +1,8 @@
 import os
+from colorama import Fore, Back, Style
 from time import sleep
 
-print("""
+print(Fore.GREEN + """
 ___________             __                                                 
 \_   _____/_ __   ____ |  | __  ___.__. ____  __ __  _____  ______ ______  
  |    __)|  |  \_/ ___\|  |/ / <   |  |/  _ \|  |  \ \__  \ \____ \\____ \ 
