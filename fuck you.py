@@ -1,17 +1,18 @@
 import os
 from time import sleep
 
-os = input("Your operating system")
+os = input("""Choose your OS
+           1.Linux 2.MacOS 3.Windows""")
 
 def clean():
-    if os == "Windows" or "windows":
-        os.system('cls')
+    if os == "1":
+        os.system('clear')
         
-    if os == "MacOs" or "macos" or "mac":
-        os.system('clean')
+    if os == "2":
+        os.system('clear')
     
-    if os == "Linux" or "linux":
-        os.system('clean')
+    if os == "3":
+        os.system('cls')
     
     else:
         print(os + "is not recognized")
